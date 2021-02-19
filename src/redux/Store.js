@@ -9,11 +9,3 @@ export const store = createStore(
   },
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
-
-// store.dispatch({
-//   type: 'ADD',
-//   data: 'Read the docs'
-// })
-
-// console.log(store.getState())
-// [ 'Use Redux', 'Read the docs' ]
