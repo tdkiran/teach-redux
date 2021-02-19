@@ -5,7 +5,7 @@ export const store = createStore(
   todos,
   {
     currentItem: "",
-    list: ["buy eggs"],
+    list: [],
   },
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );
