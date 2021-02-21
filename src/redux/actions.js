@@ -3,7 +3,7 @@ export const CLEAR = 'CLEAR';
 export const UPDATE_CURRENT_ITEM = 'UPDATE_CURRENT_ITEM';
 
 export const createAdd = itemToBeAdded => ({
-    type: ADD,
+    type: 'DELAY_ADD',
     data: itemToBeAdded
 });
 
